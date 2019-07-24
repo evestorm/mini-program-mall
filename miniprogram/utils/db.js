@@ -1,5 +1,5 @@
 const db = wx.cloud.database({
-  env: 'test-e90305'
+  env: 'mall-jd5go'
 })
 const util = require('./util.js')
 
