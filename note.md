@@ -1217,7 +1217,7 @@ onShow: function {
 
 提示：`onShow` 生命周期函数表示页面被打开时触发的功能，`onLoad` 函数表示页面在加载时触发的功能。也就是说，前者在页面加载、反复打开的过程中，会触发多次。而后者则只会被触发一次。更多的区别请查看 [文档](https://developers.weixin.qq.com/miniprogram/en/dev/framework/app-service/page.html)。
 
-### 组定义组件
+### 自定义组件
 
 首先在 `miniprogram` 中新建一个 `components` 目录，然后创建 `login` 目录。鼠标右键这个目录可以看见 "New Component" 选项，选择该选项，输入 component 的名字 `login` ,微信开发者工具会帮我们创建好一个 Component 所需要的文件（js, json, wxml, wxss）。
 
